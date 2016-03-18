@@ -10,7 +10,7 @@ public class Reset : MonoBehaviour
 	public string slectedItem = "Reset";
 	//int scwidth = Screen.width;
 	//int scheight = Screen.height;
-//	int btnwidth = scwidth/5;
+	//int btnwidth = scwidth/5;
 	
 	
 	private bool editing = false;
