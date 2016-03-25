@@ -1,35 +1,3 @@
 Base path: D:/Software/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-488
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-424
 Cmd: getPlatforms
-Cmd: compileSnippet
-  api=1 type=0 insize=7025 outsize=580 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=7025 outsize=555 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3820 outsize=339 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3820 outsize=515 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=6731 outsize=580 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=6731 outsize=241 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=3569 outsize=339 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=3569 outsize=201 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=7896 outsize=941 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=7896 outsize=779 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=5060 outsize=725 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=5060 outsize=546 kw=DIRECTIONAL ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=982 outsize=1026 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _METALLICGLOSSMAP _NORMALMAP ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=982 outsize=4084 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _METALLICGLOSSMAP _NORMALMAP ok=1
-Cmd: compileSnippet
-  api=1 type=0 insize=938 outsize=808 kw=DIRECTIONAL SHADOWS_OFF _METALLICGLOSSMAP _NORMALMAP ok=1
-Cmd: compileSnippet
-  api=1 type=1 insize=938 outsize=2348 kw=DIRECTIONAL SHADOWS_OFF _METALLICGLOSSMAP _NORMALMAP ok=1

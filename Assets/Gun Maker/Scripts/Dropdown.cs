@@ -2,10 +2,11 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
+public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,IPointerUpHandler, IPointerDownHandler, IPointerClickHandler{
 
 	public RectTransform container;
 	public bool isOpen;
+	public bool selected;
 
 
 	// Use this for initialization
@@ -13,6 +14,7 @@ public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
 	{
 		container = transform.FindChild ("Container").GetComponent<RectTransform>();
 		isOpen = false;
+		selected = false;
 	}
 	
 	// Update is called once per frame
@@ -34,13 +36,35 @@ public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler {
 	
 	}
 
+
+
+
 	public void OnPointerEnter(PointerEventData eventData)
 	{
-		isOpen = true;
+		//isOpen = true;
 	}
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		isOpen = false;
+		//isOpen = false;
+	}
+	public void OnPointerDown(PointerEventData eventData)
+	{	
+		
+		//isOpen = true;
+		
+	}
+	public void OnPointerUp(PointerEventData eventData)
+	{	
+		
+		//isOpen = false;
+		
+	}
+
+	public void OnPointerClick(PointerEventData eventData)
+	{	
+		
+		isOpen = true;
+		
 	}
 
 }
