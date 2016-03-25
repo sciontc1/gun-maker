@@ -21,8 +21,15 @@ public class spawnitem : MonoBehaviour,IPointerUpHandler
 
 	public void OnPointerUp(PointerEventData eventData)
 	{
+
 		GameObject m4 = Instantiate(Resources.Load("M4A1prefab")) as GameObject;
 		//Dropdown.csisOpen = false;
+
+
+		//GameObject ddbox = GameObject.Find("Container");
+		//DropDown dropdown = ddbox.GetComponent<DropDown>();
+		RifDropDown.isOpen = false;
+
 	}
 
 	

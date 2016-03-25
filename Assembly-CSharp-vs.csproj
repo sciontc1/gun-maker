@@ -47,7 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Gun Maker\Scripts\Accessories.cs" />
-     <Compile Include="Assets\Gun Maker\Scripts\Dropdown.cs" />
+     <Compile Include="Assets\Gun Maker\Scripts\Dropdown\AccDropDown.cs" />
+     <Compile Include="Assets\Gun Maker\Scripts\Dropdown\DMRDropDown.cs" />
+     <Compile Include="Assets\Gun Maker\Scripts\Dropdown\MiscDropDown.cs" />
+     <Compile Include="Assets\Gun Maker\Scripts\Dropdown\RifDropDown.cs" />
+     <Compile Include="Assets\Gun Maker\Scripts\Dropdown\SMGDropDown.cs" />
      <Compile Include="Assets\Gun Maker\Scripts\Magazines.cs" />
      <Compile Include="Assets\Gun Maker\Scripts\Parts.cs" />
      <Compile Include="Assets\Gun Maker\Scripts\Reset.cs" />

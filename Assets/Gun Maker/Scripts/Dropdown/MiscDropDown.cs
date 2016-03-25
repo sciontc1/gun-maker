@@ -2,17 +2,23 @@
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,IPointerUpHandler, IPointerDownHandler, IPointerClickHandler{
+public class MiscDropDown : MonoBehaviour, IPointerClickHandler{
 
 	public RectTransform container;
-	public bool isOpen;
+	public static bool isOpen;
 	public bool selected;
+	public string childcontainer;
+	public bool RIFisOpen;
+	public bool SMGisOpen;
+	public bool DMRisOpen;
+	public bool MiscisOpen;
+	public bool AccisOpen;
 
-
+	public int toggle = 1;
 	// Use this for initialization
 	void Start () 
 	{
-		container = transform.FindChild ("Container").GetComponent<RectTransform>();
+		container = transform.FindChild(childcontainer).GetComponent<RectTransform>();
 		isOpen = false;
 		selected = false;
 	}
@@ -36,34 +42,31 @@ public class Dropdown : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler,I
 	
 	}
 
-
-
-
-	public void OnPointerEnter(PointerEventData eventData)
-	{
-		//isOpen = true;
-	}
-	public void OnPointerExit(PointerEventData eventData)
-	{
-		//isOpen = false;
-	}
-	public void OnPointerDown(PointerEventData eventData)
-	{	
-		
-		//isOpen = true;
-		
-	}
-	public void OnPointerUp(PointerEventData eventData)
-	{	
-		
-		//isOpen = false;
-		
-	}
+	
 
 	public void OnPointerClick(PointerEventData eventData)
 	{	
 		
-		isOpen = true;
+		switch (toggle)
+		{
+			
+			
+		case 2:
+			isOpen = false;
+			toggle--;
+			break;
+			
+			
+		case 1:
+			isOpen = true;
+			toggle++;
+			break;
+			
+		default:
+			isOpen = true;
+			toggle = 1;
+			break;
+		}
 		
 	}
 
