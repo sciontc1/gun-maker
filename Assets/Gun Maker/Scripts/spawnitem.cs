@@ -5,6 +5,9 @@ using System.Collections;
 public class spawnitem : MonoBehaviour,IPointerUpHandler 
 {
 
+	public string item;
+
+
 	// Use this for initialization
 	void Start () 
 	{
@@ -22,7 +25,7 @@ public class spawnitem : MonoBehaviour,IPointerUpHandler
 	public void OnPointerUp(PointerEventData eventData)
 	{
 
-		GameObject m4 = Instantiate(Resources.Load("M4A1prefab")) as GameObject;
+		GameObject m4 = Instantiate(Resources.Load(item)) as GameObject;
 		//Dropdown.csisOpen = false;
 
 
