@@ -6,12 +6,13 @@ public class spawnitem : MonoBehaviour,IPointerUpHandler
 {
 
 	public string item;
-
+	public int wRes;
+	public int hRes;
 
 	// Use this for initialization
 	void Start () 
 	{
-
+		wRes = Screen.width;
 	}
 	
 	// Update is called once per frame
@@ -28,6 +29,8 @@ public class spawnitem : MonoBehaviour,IPointerUpHandler
 		GameObject m4 = Instantiate(Resources.Load(item)) as GameObject;
 		//Dropdown.csisOpen = false;
 
+
+		
 
 		//GameObject ddbox = GameObject.Find("Container");
 		//DropDown dropdown = ddbox.GetComponent<DropDown>();
