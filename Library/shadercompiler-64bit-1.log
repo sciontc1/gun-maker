@@ -5,3 +5,11 @@ Cmd: compileSnippet
   api=1 type=0 insize=5060 outsize=725 kw=SPOT ok=1
 Cmd: compileSnippet
   api=1 type=1 insize=5060 outsize=901 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3820 outsize=339 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3820 outsize=859 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3569 outsize=339 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3569 outsize=560 kw=SPOT ok=1
