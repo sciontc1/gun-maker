@@ -31,37 +31,6 @@ public class Accessories : MonoBehaviour
                 }
             }
         }
-		
-		if(slectedItem == "ACOG")
-		{
-			print ("Acog created");
-			if(acogcreated == false)
-			{
-				GameObject acog = Instantiate(Resources.Load("acogprefab")) as GameObject;
-				acogcreated = true;
-			}
-		}
-		if(slectedItem == "Suppresor")
-		{
-			print ("suppresor created");
-			if(suppresorcreated == false)
-			{
-				GameObject suppresor = Instantiate(Resources.Load("silencerprefab")) as GameObject;
-				suppresorcreated = true;
-			}
-
-		}
-		
-		if(slectedItem == "PEQ 2")
-		{
-			print ("PEQ 2 created");
-			if(peq2created == false)
-			{
-				GameObject peq2 = Instantiate(Resources.Load("peq2prefab")) as GameObject;
-				peq2created = true;
-			}
-
-		}
 
     }
 }

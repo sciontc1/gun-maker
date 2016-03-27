@@ -2,7 +2,7 @@ var lockZ:float;
 function Update ()
 {
 //currentZ = this.transform.position.z;
-print(lockZ);
+
 
 
 //Y AXIS//
