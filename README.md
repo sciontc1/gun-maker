@@ -3,4 +3,4 @@ Gun Maker is the unofficial current name for this work in progress Unity game de
 The intention of this app is to allow users to select pre-made weapons and customise them with a number of accessories
 
 
-© 2016 George Rothon
+© 2016 - 2021 George Rothon
